@@ -97,14 +97,14 @@ body {
     text-decoration: none;
     padding-top: 25px;
     padding-bottom: 25px;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list-link:hover,
 .header-list-link:focus {
     color: var(--link-color);
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-list .header-list-link.current {
@@ -150,6 +150,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .number {
@@ -162,22 +165,19 @@ body {
 
 .connectoin-icon {
     fill: var(--secondary-text-color);
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover,
 .header-link:focus {
     color: var(--link-color);
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-link:hover>.connectoin-icon,
 .header-link:focus>.connectoin-icon {
     fill: var(--link-color);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -218,6 +218,9 @@ body {
     padding: 6px 22px;
     border-radius: 4px;
     border: none;
+    transition-property: background-color, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-item:hover,
@@ -225,9 +228,6 @@ body {
     color: var(--hero-link-color);
     background-color: var(--link-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition-property: background-color, color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples {
@@ -243,6 +243,9 @@ body {
     display: block;
     flex-basis: calc(100% / 3 - 30px);
     position: relative;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-img {
@@ -253,9 +256,6 @@ body {
 .examples-item:hover,
 .examples-item:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-property: box-shadow;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-title {
@@ -298,13 +298,13 @@ body {
     top: 0;
     display: flex;
     hieght: 100%;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-item:hover .overley-text {
     transform: translateY(0);
-    transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -387,6 +387,9 @@ body {
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255, 10%);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .network-icon {
@@ -396,9 +399,6 @@ body {
 .network-link:hover,
 .network-link:focus {
     background-color: var(--link-color);
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .conteiner.block {
@@ -461,14 +461,14 @@ body {
     padding: 10px 32px 10px 32px;
     margin-right: auto;
     margin-left: auto;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #188ce8;
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -509,6 +509,9 @@ body {
     display: block;
     width: 70px;
     height: 70px;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .principle-icon-block {
@@ -523,11 +526,8 @@ body {
 }
 
 .principle-icon-block:hover>.principle-icon,
-.principle-icon-block:focus {
+.principle-icon-block:focus>.principle-icon {
     fill: var(--link-color);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -665,6 +665,9 @@ body {
 
 .network-icons {
     fill: #afb1b8;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .masters-contact-link:hover,
@@ -678,9 +681,6 @@ body {
 .masters-contact-link:hover>.network-icons,
 .masters-contact-link:focus>.network-icons {
     fill: var(--bacground-white);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -712,12 +712,18 @@ body {
     fill: #afb1b8;
     border: 1px solid #afb1b8;
     border-radius: 4px;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover,
 .clients-link:focus {
     border: 1px solid var(--link-color);
-    transition-property: border;
+}
+
+.clients-icon {
+    transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -725,9 +731,6 @@ body {
 .clients-link:hover>.clients-icon,
 .clients-link:focus>.clients-icon {
     fill: var(--link-color);
-    transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
